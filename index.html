@@ -1,28 +1,59 @@
-<html>
-    <head>
-        <title>Whale-come</title>
-        <link rel="stylesheet" href="styles.css" />
-    </head>
-    <body>
-        <center>
-            <table border="1" width="80%">
-                <tr>
-                    <td>
-                        Whale-come to my website! I hope you liked my page.
-                        Here, we will learn a few quick facts about Orcas!
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="spike.html">Start HERE: Fun Orca Facts!</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Then, take a look at an <a href="test.html">orca</a>!
-                    </td>
-                </tr>
-            </table>
-        </center>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Whale-come</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to bottom right, #e0f7fa, #ffffff);
+            color: #003b5c;
+            margin: 0;
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: #ffffffcc;
+            border-radius: 12px;
+            padding: 30px;
+            max-width: 700px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #0077b6;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+
+        a:hover {
+            background-color: #005f87;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Whale-come to My Website!</h1>
+        <p>
+            I hope you like my page. Here, we’ll learn a few quick facts about orcas!
+        </p>
+        <a href="spike.html">Start HERE: Fun Orca Facts!</a>
+        <a href="test.html">Then, check out an orca!</a>
+    </div>
+</body>
 </html>
