@@ -1,31 +1,79 @@
-<html>
-    <head>
-    <title>Orcas galore!</title>
-    <link rel="stylesheet" href="styles.css">
-    </head>
-    <body bgcolor="lavender">
-    <b>Whale-come friend!<br>
-    <table border="1">
-        <tr>
-            <td>
-                This is Sequim!
-            </td>
-            <td>
-                <a> href="index.html">
-                    <img src="sequim.jpg" width="700" height="400"> </a>
-            </td>
-            <td>
-                <a href="spike.html"> Click here for some fun facts!</a>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Where to go?
-            </td>
-            <td>
-                Click on the whale to head back to the main page!
-            </td>
-        </tr>
-    </table>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Orcas Galore!</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to bottom right, lavender, #ffffff);
+            color: #003b5c;
+            margin: 0;
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: #ffffffcc;
+            border-radius: 12px;
+            padding: 30px;
+            max-width: 900px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        img {
+            border-radius: 8px;
+            max-width: 100%;
+            height: auto;
+            transition: transform 0.3s;
+        }
+
+        img:hover {
+            transform: scale(1.02);
+        }
+
+        .links {
+            margin-top: 20px;
+        }
+
+        a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #6a0572;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+
+        a:hover {
+            background-color: #4a0253;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Whale-come, friend!</h1>
+        <p>This is Sequim!</p>
+        
+        <a href="index.html">
+            <img src="sequim.jpg" alt="Photo of Sequim the Orca" width="700" height="400">
+        </a>
+
+        <div class="links">
+            <a href="index.html">Back to Main Page</a>
+            <a href="spike.html">Fun Orca Facts</a>
+        </div>
+    </div>
+</body>
 </html>
