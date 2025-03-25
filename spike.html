@@ -1,39 +1,83 @@
-<html>
-    <head>
-        <title>
-                Fun Orca facts!
-        </title>
-        <link rel="stylesheet" href="styles.css"
-    </head>
-    <body bgcolor="lavender">
-        <center>
-        <table border= "1", width="80%"
-        <tr>
-            <td>
-                <a href=index.html> Back to the Main Page</a>
-            </td>
-        </tr>
-            <tr>
-                <td>
-                While nicknamed killer whales, Orca's are actually in the dolphin family!
-                </td>
-            </tr>
-            <tr>
-                <td>
-                  Orca's are matriarcal! There social structures revolve around familys (called pods) that start with the eldest female member. The K Pod, a local PNW group, is headed by Sequim who is 48.
-                </td>
-            </tr>
-            <tr>
-                <td>
-                Female orcas are suspected to live up to 80 years... Sequim has a while to go!
-                </td>
-            </tr>
-            <tr>
-                <td>
-                <a href="test.html">Let's look at an Orca!</a>
-                </td>
-            </tr>
-        </table>
-        </center>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fun Orca Facts!</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to bottom right, lavender, #ffffff);
+            color: #003b5c;
+            margin: 0;
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: #ffffffcc;
+            border-radius: 12px;
+            padding: 30px;
+            max-width: 700px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        .nav-link {
+            display: inline-block;
+            margin-top: 25px;
+            text-align: center;
+            width: 100%;
+        }
+
+        a {
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #6a0572;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+
+        a:hover {
+            background-color: #4a0253;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Fun Orca Facts!</h1>
+
+        <p><a href="index.html">Back to the Main Page</a></p>
+
+        <ul>
+            <li>While nicknamed "killer whales," orcas are actually members of the dolphin family.</li>
+            <li>Orcas are matriarchal! Their social structures revolve around families (called pods) led by the eldest female.</li>
+            <li>The K Pod, a local PNW group, is headed by Sequim, who is 48 years old.</li>
+            <li>Female orcas are suspected to live up to 80 years... Sequim has a while to go!</li>
+        </ul>
+
+        <div class="nav-link">
+            <a href="test.html">Let's look at an orca!</a>
+        </div>
+    </div>
+</body>
 </html>
